@@ -14,8 +14,8 @@
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #F26D74;
-    border: 1px solid #F26D74;
+    background: #8b52c4;
+    border: 1px solid #8b52c4;
     width: 80px;
     height: 80px;
     margin: 10px 10px;
@@ -69,9 +69,10 @@ h2 {
 }
 
 .next-quote {
-    color: #F26D74;
+    color: #8b52c4;
     font-family: 'Princess Sofia', cursive;
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .footer-blurb {
@@ -100,7 +101,8 @@ h2 {
 }
 
 h2 span {
-    color: #F26D74;
+    color: #8b52c4;
+    font-weight: bold;
 }
 
 .float-right {
