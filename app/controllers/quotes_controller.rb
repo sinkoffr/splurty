@@ -3,11 +3,11 @@ class QuotesController < ApplicationController
         @quote = Quote.order("RANDOM()").first
     end
     
-    
     def create
         @quote = Quote.create(quote_params)
         if @quote.invalid?
-            flash[:error] = '<strong>Could not save!!!</strong> Please submit quotes no longer than 150 characters.'
+            flash[:error] = '<strong>Could not save!!!</strong> 
+            Please submit quotes no longer than 150 characters.'
         end
         redirect_to root_path
     end
@@ -20,6 +20,5 @@ class QuotesController < ApplicationController
     def quote_params
         params.require(:quote).permit(:saying, :author)
     end
-    
 
 end

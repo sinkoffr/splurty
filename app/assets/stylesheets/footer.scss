@@ -7,7 +7,6 @@ html {
 }
 
 body {
-    /* margin bottom by footer height */
     margin-bottom: 60px;
 }
 
@@ -15,7 +14,6 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
-    /* set the fixed height of the footer here */
     height: 60px;
 }
 
